@@ -1,0 +1,137 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+}
+
+#background {
+	width: 950px;
+	height: 1270px;
+	background-color: #26312c;
+	color: white;
+	border-right: 10px solid black;
+	border-left: 10px solid black;
+
+}
+#label{
+	color: white;
+	display: inline-block;
+	margin: 15px;
+	margin-left: 25px;
+}
+
+#logo {
+	display: inline-block;
+	height: 80px;
+	margin: 20px 450px 20px 20px;
+}
+
+#contact {
+	display: inline-block;	
+	color: white;
+	margin-top: 15px;
+}	
+
+h3, h2, h4 {
+	display: inline;
+	margin-top: 20px;
+}
+
+.nav {
+	list-style-type: none;
+	background-color: #5d5858;
+	width: 930px;
+	padding: 10px;
+}
+.nav li {
+	display: inline;
+	font-size: 18px;
+	margin-left: 10px;
+	padding: 5px;
+}
+.nav a {
+	padding-left: 10px;
+	border-left: 2px solid darkgrey;
+	color: darkgrey;
+	
+}
+#sleep {
+	width: 950px;
+	height: 450px;
+	border-bottom: 5px solid #5d5858;
+}
+#middle {
+	width: 950px;
+	height: 150px;
+	
+}
+.mids {
+	display: inline-block;
+	width: 160px;
+	margin: 10px;
+	padding-top: 20px;
+}
+#first {
+	margin-left: 20px
+}
+
+.icon {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 30px;
+}
+
+#stripe {
+	width: 920px;
+	height: 120px;
+	background-color: black;
+	padding: 30px 15px 10px 20px;
+}
+
+#stripe p, h1 {
+	width: 600px;
+	margin-right: 150px;
+	display: inline-block;
+}
+#buy {
+	background-color: orange;
+	color: white;
+	border-radius: 5px;
+	padding: 10px 30px 10px 30px;
+	display: inline-block;
+	height: 50px;
+	font-size: 18px;
+
+}
+.feet {
+	width: 200px;
+	margin: 15px;
+	display: inline-block;
+}
+h4 {
+	margin-left: 650px;
+	color: orange;
+	padding-top: 20px;
+	text-decoration: italic;
+}
+h2 {
+	margin-left: 20px;
+}
+.pics {
+	border: solid 5px grey;
+	margin: 10px 0px 10px 0px;
+	width: 160px;
+}
+h3 {
+	color: orange;
+}
+h5 {
+	color: grey;
+	margin-left: 850px;
+	margin-top: 20px;
+}
+span {
+	font-size: 40%;
+	vertical-align: middle;
+}
