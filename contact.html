@@ -3,9 +3,131 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Contact</title>   
+   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+		$('document').ready(function(){			
+			$('img').click(function() {				
+  				var temp = $(this).attr('src'); 
+  				$(this).attr('src', $(this).attr('data-alt-src')); 
+  				$(this).attr('data-alt-src', temp);
+			})
+			$('#but1').click(function() {
+				$('.div2').fadeOut();
+			})
+			$('#but2').click(function() {
+				alert("Wrong Choice!");
+				$('.div1').fadeOut();				
+			})
+			$('#agree').click(function() {
+				$('#miss').addClass("redd");
+			})
+			$('.subm').click(function() {
+				alert("Great Choice! We will overcome the awfulness of garden gnomes!");
+							
+			})
+
+		})
+
+	</script>
 </head>
 <body>
+	<h1 id="head">The Destruction of All Garden Gnomes Organization</h1>
+	<header>These are unaffiliated organizations</header><br>
+	<nav class="navbar navbar-dark bg-dark"><a class="nav" href="https://www.google.com">Google</a> <a class="nav" href="https://github.com/dbrewster42">Github</a> <a class="nav" href="https://www.espn.com/">ESPN</a></nav><br>	
+	<div id="trio">		
+		<div id="uno">	
+			<h3>Mission Statement</h3>
+			<p id="miss">DAGGO is a simple organization for simple people who have strong family values and discerning values which compels us towards the necessity of <u>obliterating</u> all Garden Gnomes</p>
+			<button id="agree">I AGREE!</button>
+		</div>
+		<div id="dos">
+			<div id="mid">
+				<p>Click on the picture!</p>
+				<img src="gnome.jpg" data-alt-src="shopping.webp" id="img">
+			</div>
+			<div id="right">
+				<h3 class="blue">Our Leader</h3>		   
+		    	<dl>
+		    		<dt>Name:</dt>
+		    		<dd>Devon Brewster</dd>
+		    		<dt>Email:</dt>
+		    		<dd>devonbrewster42@gmail.com</dd>
+		    		<dt>Address:</dt>
+		    		<dd>Richardson, TX</dd>
+		    	</dl>   	
+			</div>
+			    
+			
+		   
+		</div>
+	</div>
+	<br><br><br>
+    <p>Please fill out the following form if you wish to sign up for the Destroying All Garden Gnomes Organization</p>
+    <p>Click on the button to choose which form to fill out</p>
+    <button id="but1">Form 1</button><button id="but2">Form 2</button><br><br>
+    <article class="div1">
+    	<h2 class="blue">Form 1</h2>
+	    <form id="form">    
+			  <div class="form-group">
+			    <label for="user[last]">Name</label>
+			    <input type="text" class="form-control" name="user[last]">
+			  </div>
+			  <div class="form-group">
+			    <label for="user[email]">Email</label>
+			    <input type="email" class="form-control" name="user[email]">		     
+			  </div><br>  
+			 
+			  <div class="form-group">
+			    <label for="user[city]">City</label>
+			    <input type="text" class="form-control" name="user[city]">
+			  </div>
+			  <div class="form-group">
+			    <label for="user[state]">State</label>
+			    <input type="text" class="form-control" name="user[state]" maxlength="2">
+			  </div><br>
+			   <div class="form-group">
+			    <label for="user">Why do you hate garden gnomes? </label><br>
+			    <textarea id="user"></textarea>		    
+			  </div><br>
+			  <div class="form-group">
+			    <label for="clock[job_id]">How many garden gnomes have you previously destroyed? </label>
+			    <select multiple class="form-control" id="exampleFormControlSelect2" name="clock[job_id]">
+				    <option>0</option>
+					<option>1-3</option>
+					<option>4-9</option>
+					<option>10-20</option>
+					<option>21+</option>
+			    </select>
+			</div><br>	  	
+			<button class="subm">Register</button>
+	    </form>
+	</article>
+
+	<article class="div2">
+	    <h2 class="blue">Form 2</h2>
+	    <form>
+	    	<input type="text" name="name" value="Full Name"><br>
+	    	<input type="email" name="email" value="Email"><br>
+	    	<input type="text" name="city" value="City"><br>
+	    	<input type="text" maxlength="2" name="state" value="TX"><br>
+	    	<textarea>Why do you hate garden gnomes?</textarea><br>
+	    	How many garden gnomes <br> have you previously destroyed?<br>
+	    	<select>
+	    		 <option>0</option>
+					<option>1-3</option>
+					<option>4-9</option>
+					<option>10-20</option>
+					<option>21+</option>
+	    	</select><br>
+	    	<input type="submit" value="Register" class="subm">
+	    </form>
+	</article>
     
+
 </body>
 </html>
