@@ -14,7 +14,7 @@
 			$('img').click(function() {				
   				var temp = $(this).attr('src'); 
   				$(this).attr('src', $(this).attr('data-alt-src')); 
-  				$(this).attr('data-alt-src', temp);
+  				$(this).attr('data-alt-src', temp);  				
 			})
 			$('#but1').click(function() {
 				$('.div2').fadeOut();
@@ -25,11 +25,12 @@
 			})
 			$('#agree').click(function() {
 				$('#miss').addClass("redd");
+				$('#aud').get(0).play();
 			})
 			$('.subm').click(function() {
 				alert("Great Choice! We will overcome the awfulness of garden gnomes!");
 							
-			})
+			})			
 
 		})
 
@@ -127,7 +128,9 @@
 	    	<input type="submit" value="Register" class="subm">
 	    </form>
 	</article>
-    
+    <audio id="aud">
+    	<source src="Hallelujah.mp3" type="audio/mpeg">
+    </audio>
 
 </body>
 </html>
