@@ -1,0 +1,87 @@
+.red {
+	color: red;
+	margin-left: 250px;
+	margin: 20px;
+}
+.redd{
+	color: red;
+}
+#image {
+	width: 600px;	
+}
+.blue {
+	color: blue;
+}
+.nav {
+	margin-left: 30px;
+	display: inline-block;
+}
+.navbar {
+	width: 960px;
+}
+#form {
+	margin-left: 20px;
+}
+.form-control {
+	width: 200px;
+}
+#user {
+	width: 200px;
+}
+.form-group {
+	display: inline-block;
+}
+.div1 {
+	display: inline-block;
+	padding: 20px;
+	border: 2px solid black;
+}
+.div2 {
+	border: 1px solid black;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 200px;
+	padding: 20px;
+}
+#head {
+	color: red;
+	align-self: center;
+}
+#img {
+	width: 300px;
+	display: inline-block;
+}
+#trio {
+	width: 970px;
+	height: 300px;
+}
+#uno {
+	width: 300px;
+	height: 300px;
+	display: inline-block;
+}
+#dos {
+	width: 640px;
+	height: 300px;
+	display: inline-block;
+}
+#mid {
+	width: 300px;
+	display: inline-block;
+	margin: 10px;
+}
+#right {
+	width: 300px;
+	display: inline-block;
+
+}
+#but1 {
+	background-color: red;
+	color: yellow;
+	margin-left: 100px;
+}
+#but2 {
+	background-color: yellow;
+	color: red;
+	margin-left: 600px;
+}
